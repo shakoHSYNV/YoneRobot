@@ -34,7 +34,7 @@ def afk(update: Update, context: CallbackContext):
         reason = args[1]
         if len(reason) > 100:
             reason = reason[:100]
-            notice = "\nYour afk reason was shortenxghhhhbharacters."
+            notice = "\nAfk Olduğunuzun Səbəbi."
     else:
         reason = ""
 
@@ -64,14 +64,14 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{} is hhbere!",
-                "{} is bffack!",
-                "{} is njjow in the chat!",
-                "{} is vbawake!",
-                "{} is backbb online!",
-                "{} is ffcinally here!",
-                "Welcome bajjck! {}",
-                "Where is {}?\nIn tvvhe chat!",
+                "{} ifhsre!",
+                "{} isfnd bffack!",
+                "{} is nnfnsjjow in the chat!",
+                "{} is vdbsbbawake!",
+                "{} is bfndackbb online!",
+                "{} is ffdhdhcinally here!",
+                "Welcome bajdbsjck! {}",
+                "Where is {}?\nIn dnstvvhe chat!",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(
