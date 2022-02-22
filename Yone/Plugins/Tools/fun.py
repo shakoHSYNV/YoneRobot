@@ -9,7 +9,7 @@ from Yone.Handlers.validation import is_user_admin
 from Yone.Handlers.extraction import extract_user
 from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
-from telegram.ext import CallbackContext, sevgi_async
+from telegram.ext import CallbackContext, run_async
 
 GIF_ID = "CgACAgQAAx0CSVUvGgAC7KpfWxMrgGyQs-GUUJgt-TSO8cOIDgACaAgAAlZD0VHT3Zynpr5nGxsE"
 
