@@ -1,4 +1,4 @@
-RUN_STRINGS = (
+SEVGİ_STRINGS = (
     "Now you see sbsbdbt.",
     "ε=ε=εsbsnsb￣)┘",
     "Get bdhsjsere!",
@@ -12,12 +12,12 @@ RUN_STRINGS = (
     "*Nezuko run acfnxntivated*",
     "Hey take respzbzbzonsibilty for what you just did!",
     "May the oddsfnd be ever in your favour.",
-    "Run everyone, thsbsbey just dropped a bomb 💣💣",
+    "sevgi everyone, thsbsbey just dropped a bomb 💣💣",
     "And they disappeared forever, never to be seen again.",
     "Legend has it, they're still running.",
     "Hasta la vista, baby.",
     "Ah, what a waste. I liked that one.",
-    "As The Doctor would say... RUN!",
+    "As The Doctor would say... sevgi!",
 )
 
 GIFS = [
