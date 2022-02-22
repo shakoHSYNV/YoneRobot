@@ -1,4 +1,4 @@
-RUN_STRINGS = (
+SEVGI_STRINGS = (
     "Now you see sbsbdbt.",
     "ε=ε=εsbsnsb￣)┘",
     "Get bdhsjsere!",
