@@ -9,14 +9,14 @@ from Yone.Handlers.validation import is_user_admin
 from Yone.Handlers.extraction import extract_user
 from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
-from telegram.ext import CallbackContext, run_async
+from telegram.ext import CallbackContext, sevgi_async
 
 GIF_ID = "CgACAgQAAx0CSVUvGgAC7KpfWxMrgGyQs-GUUJgt-TSO8cOIDgACaAgAAlZD0VHT3Zynpr5nGxsE"
 
 
 
-def runs(update: Update, context: CallbackContext):
-    temp = random.choice(fun_strings.RUN_STRINGS)
+def sevgi(update: Update, context: CallbackContext):
+    temp = random.choice(fun_strings.SEVGI_STRINGS)
     update.effective_message.reply_text(temp)
 
 
@@ -374,7 +374,7 @@ __help__ = """
 """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize, run_async=True)
-SEVGİ_HANDLER = DisableAbleCommandHandler("sevgi", sevgi, run_async=True)
+SEVGI_HANDLER = DisableAbleCommandHandler("sevgi", sevgi, run_async=True)
 SLAP_HANDLER = DisableAbleCommandHandler("slap", slap, run_async=True)
 PAT_HANDLER = DisableAbleCommandHandler("pat", pat, run_async=True)
 ROLL_HANDLER = DisableAbleCommandHandler("roll", roll, run_async=True)
