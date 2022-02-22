@@ -421,7 +421,7 @@ __command_list__ = [
     "8ball",
 ]
 __handlers__ = [
-    RUNS_HANDLER,
+    SEVGI_HANDLER,
     SLAP_HANDLER,
     PAT_HANDLER,
     ROLL_HANDLER,
