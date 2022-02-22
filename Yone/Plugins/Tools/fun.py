@@ -374,7 +374,7 @@ __help__ = """
 """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize, run_async=True)
-RUNS_HANDLER = DisableAbleCommandHandler("sevgi", sevgi, run_async=True)
+SEVGİ_HANDLER = DisableAbleCommandHandler("sevgi", sevgi, run_async=True)
 SLAP_HANDLER = DisableAbleCommandHandler("slap", slap, run_async=True)
 PAT_HANDLER = DisableAbleCommandHandler("pat", pat, run_async=True)
 ROLL_HANDLER = DisableAbleCommandHandler("roll", roll, run_async=True)
@@ -421,7 +421,7 @@ __command_list__ = [
     "8ball",
 ]
 __handlers__ = [
-    SEVGI_HANDLER,
+    SEVGİ_HANDLER,
     SLAP_HANDLER,
     PAT_HANDLER,
     ROLL_HANDLER,
