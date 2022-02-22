@@ -42,7 +42,7 @@ def afk(update: Update, context: CallbackContext):
     fname = update.effective_user.first_name
     try:
         update.effective_message.reply_text(
-            f"{fname} is now away!{notice}",
+            f"{fname} indi uzaqdadır!{notice}",
         )
     except BadRequest:
         pass
@@ -64,14 +64,14 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{} ifhsre!",
-                "{} isfnd bffack!",
-                "{} is nnfnsjjow in the chat!",
-                "{} is vdbsbbawake!",
-                "{} is bfndackbb online!",
-                "{} is ffdhdhcinally here!",
-                "Welcome bajdbsjck! {}",
-                "Where is {}?\nIn dnstvvhe chat!",
+                "{} geri döndü!",
+                "{} indi söhbətdədir!",
+                "{} oyaqdır!",
+                "{} yenidən onlayndır!",
+                "{} nəhayət burada!",
+                "{} Artıq Geri Qayıtdım!",
+                "Xoş gəlmisiniz! {}",
+                "Haradadır {}?\nÇatda!",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(
