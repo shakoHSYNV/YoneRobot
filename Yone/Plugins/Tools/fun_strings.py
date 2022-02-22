@@ -1,4 +1,4 @@
-SEVGİ_STRINGS = (
+sevgi_STRINGS = (
     "Now you see sbsbdbt.",
     "ε=ε=εsbsnsb￣)┘",
     "Get bdhsjsere!",
