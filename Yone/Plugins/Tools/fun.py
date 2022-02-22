@@ -356,7 +356,7 @@ def weebify(update: Update, context: CallbackContext):
 
 
 __help__ = """
- ‣ `/runs`*:* reply a random string from an array of replies
+ ‣ `/sevgi`*:* reply a random string from an array of replies
  ‣ `/slap`*:* slap a user, or get slapped if not a reply
  ‣ `/shrug`*:* get shrug XD
  ‣ `/table`*:* get flip/unflip :v
@@ -374,7 +374,7 @@ __help__ = """
 """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize, run_async=True)
-RUNS_HANDLER = DisableAbleCommandHandler("runs", runs, run_async=True)
+RUNS_HANDLER = DisableAbleCommandHandler("sevgi", runs, run_async=True)
 SLAP_HANDLER = DisableAbleCommandHandler("slap", slap, run_async=True)
 PAT_HANDLER = DisableAbleCommandHandler("pat", pat, run_async=True)
 ROLL_HANDLER = DisableAbleCommandHandler("roll", roll, run_async=True)
